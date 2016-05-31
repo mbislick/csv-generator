@@ -1,0 +1,55 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+	  "properties": {
+	    "_id": {
+	      "type": "integer"
+	    },
+	    "key": {
+	      "type": ["integer", null]
+	    },
+	    "name": {
+	      "type": "string"
+	    },
+	    "fullName": {
+	      "type": "string"
+	    },
+	    "iata_airport_code": {
+	      "type": ["string", null]
+	    },
+	    "type": {
+	      "type": "string"
+	    },
+	    "country": {
+	      "type": "string"
+	    },
+	    "geo_position": {
+	      "type": "object",
+	      "properties": {
+	        "latitude": {
+	          "type": "number"
+	        },
+	        "longitude": {
+	          "type": "number"
+	        }
+	      }
+	    },
+	    "location_id": {
+	      "type": "string"
+	    },
+	    "inEurope": {
+	      "type": "boolean"
+	    },
+	    "countryCode": {
+	      "type": "string"
+	    },
+	    "coreCountry": {
+	      "type": ["string", null]
+	    },
+	    "distance": {
+	      "type": ["number", null]
+	    }
+	  }
+	}
+}
